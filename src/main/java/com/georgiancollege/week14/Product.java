@@ -8,6 +8,7 @@ public class Product {
     private float rating;
     private int stock;
     private String brand;
+    private String[] images;
 
     public int getId() {
         return id;
@@ -35,5 +36,9 @@ public class Product {
 
     public String getBrand() {
         return brand;
+    }
+
+    public String[] getImages() {
+        return images;
     }
 }
